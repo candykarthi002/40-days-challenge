@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Authentic";
+  src: url("./Authentic\ Signature.otf");
+}
+
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 10rem;
+}
+
+.type-anime span {
+  font-family: "Authentic";
+  font-size: 10rem;
+  font-weight: 400;
+  /* text-transform: capitalize; */
+  animation: typing 3s linear calc(var(--i) * 0.1s) infinite;
+}
+
+@keyframes typing {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

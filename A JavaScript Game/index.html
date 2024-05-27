@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tic Tac Toe Game</title>
+  </head>
+  <body>
+    <div class="game-over-modal hide">
+      <div class="card">
+        <h1 class="content">Game Over!</h1>
+        <button class="restart-btn">Restart</button>
+      </div>
+    </div>
+    <div class="container">
+      <h1>Tic Tac Toe Game</h1>
+      <span class="turn"> 'X' Turn </span>
+      <div class="board">
+        <span
+          class="box"
+          data-value="0"
+          onclick="handleBoxGetPressed(this)"
+        ></span>
+        <span
+          class="box"
+          data-value="1"
+          onclick="handleBoxGetPressed(this)"
+        ></span>
+        <span
+          class="box"
+          data-value="2"
+          onclick="handleBoxGetPressed(this)"
+        ></span>
+        <span
+          class="box"
+          data-value="3"
+          onclick="handleBoxGetPressed(this)"
+        ></span>
+        <span
+          class="box"
+          data-value="4"
+          onclick="handleBoxGetPressed(this)"
+        ></span>
+        <span
+          class="box"
+          data-value="5"
+          onclick="handleBoxGetPressed(this)"
+        ></span>
+        <span
+          class="box"
+          data-value="6"
+          onclick="handleBoxGetPressed(this)"
+        ></span>
+        <span
+          class="box"
+          data-value="7"
+          onclick="handleBoxGetPressed(this)"
+        ></span>
+        <span
+          class="box"
+          data-value="8"
+          onclick="handleBoxGetPressed(this)"
+        ></span>
+      </div>
+      <div class="copyrights">
+        designed and developed by <span>Karthik</span>.
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

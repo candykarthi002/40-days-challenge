@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Atomic Physics</title>
+  </head>
+  <body>
+    <h1><img src="icon.png" alt="icon" />Atomic Physics .</h1>
+    <div class="main-container">
+      <canvas id="myCanvas"></canvas>
+    </div>
+    <!-- <input type="number" id="speed" placeholder="Increase the Speed" min="1" /> -->
+    <div class="electrons grp">
+      <button id="add"><img src="./add.png" alt="add" /></button> Electrons
+      <button id="remove"><img src="./remove.png" alt="remove" /></button>
+    </div>
+    <div class="automate grp">
+      <button id="auto-add"><img src="./add.png" alt="add" /></button> Automate
+      <button id="auto-rem"><img src="./remove.png" alt="remove" /></button>
+    </div>
+    <div class="info-container">
+      <span id="element-name">Element Name <sup id="a-num">N</sup></span>
+      <span id="electronic-conf">Electronic Configuration</span>
+    </div>
+    <div class="copyrights">Designed and Developed By Karthik</div>
+    <script src="index.js"></script>
+  </body>
+</html>

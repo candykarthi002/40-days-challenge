@@ -1,0 +1,13 @@
+Types / Levels Of Projects:
+	- Simple
+		- should have less than 5 functionalities
+		- no use of libraries or frameworks
+		- less than 200 lines of code
+	- Intermediate
+		- should have more than 5-10 functionalities
+		- minimal use of libraries or frameworks
+		- less than 500 lines of code
+	- Capstone
+		- should have more than 10-15 functionalities
+		- needful use of libraries or frameworks and integrations
+		- more than 500 lines of code
